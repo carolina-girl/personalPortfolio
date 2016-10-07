@@ -26,5 +26,12 @@ namespace personalPortfolio.Controllers
 
             return View();
         }
+
+        public ActionResult Resume()
+        {
+            ViewBag.Message = "Your resume page.";
+
+            return View();
+        }
     }
 }

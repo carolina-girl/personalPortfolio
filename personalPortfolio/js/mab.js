@@ -23,7 +23,7 @@ function calculateMean() {
     n3 = Number(document.getElementById("number3").value);
     n4 = Number(document.getElementById("number4").value);
     n5 = Number(document.getElementById("number5").value);
-    document.getElementById("resultMean").innerHTML = (n1 + n2 + n3 + n4 + n5) / 2;
+    document.getElementById("resultMean").innerHTML = (n1 + n2 + n3 + n4 + n5) / 5;
 }
 
 function calculateSum() {
@@ -45,12 +45,6 @@ function calculateProduct() {
 }
 
 
-
-
-
-
-
-
 function factorial() {
     num = Number(document.getElementById("inputNum").value);
     var factNum = "";
@@ -61,14 +55,7 @@ function factorial() {
     }
     document.getElementById("resultFact").innerHTML = factNum;
 }
-
-
-
-
-
-
-
-
+    
 function playGame() {
     var firstPlay = Number(document.getElementById("firstNum").value);
     var secondPlay = Number(document.getElementById("secondNum").value);
@@ -110,3 +97,11 @@ function wordFun(str) {
     }
     document.getElementById("stringResult").innerHTML = newString;
 }
+
+//<input type="button" value="Reset Form" onClick="this.form.reset()" />
+
+
+
+
+
+

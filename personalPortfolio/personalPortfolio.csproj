@@ -214,6 +214,8 @@
     <Content Include="css\creative.css" />
     <Content Include="css\creative.min.css" />
     <Content Include="css\mab.css" />
+    <Content Include="css\prism.css" />
+    <Content Include="dummy.html" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\FONTLOG.txt" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -222,6 +224,22 @@
     <Content Include="Content\Site.css" />
     <Content Include="gulpfile.js" />
     <Content Include="img\header.jpg" />
+    <Content Include="img\image1.jpg" />
+    <Content Include="img\image12.jpg" />
+    <Content Include="img\image17.jpg" />
+    <Content Include="img\image19.jpg" />
+    <Content Include="img\image2.jpg" />
+    <Content Include="img\image20.jpg" />
+    <Content Include="img\image23.jpg" />
+    <Content Include="img\image24.jpg" />
+    <Content Include="img\image27.jpg" />
+    <Content Include="img\image28.jpg" />
+    <Content Include="img\image3.jpg" />
+    <Content Include="img\image30.jpg" />
+    <Content Include="img\image4.jpg" />
+    <Content Include="img\image5.jpg" />
+    <Content Include="img\image6.jpg" />
+    <Content Include="img\image9.jpg" />
     <Content Include="img\portfolio\fullsize\1.jpg" />
     <Content Include="img\portfolio\fullsize\2.jpg" />
     <Content Include="img\portfolio\fullsize\3.jpg" />
@@ -243,6 +261,7 @@
     <Content Include="js\creative.js" />
     <Content Include="js\creative.min.js" />
     <Content Include="js\mab.js" />
+    <Content Include="js\prism.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.js" />
     <Content Include="Scripts\ai.0.22.19-build00125.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -355,6 +374,9 @@
     <Content Include="vendor\font-awesome\scss\_screen-reader.scss" />
     <Content Include="vendor\font-awesome\scss\_stacked.scss" />
     <Content Include="vendor\font-awesome\scss\_variables.scss" />
+    <Content Include="Views\Shared\dummyLayout.cshtml" />
+    <Content Include="Views\Home\Resume.cshtml" />
+    <Content Include="Views\Home\Portfolio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

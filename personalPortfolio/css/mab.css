@@ -35,6 +35,13 @@
      background-color: black;
  }*/
 
+header {
+    color: #8B0000;
+}
+
+header .header-content .header-content-inner p {
+    color: #8B0000;
+}
 
 .contactAddress{
     width:100%;
@@ -80,26 +87,28 @@ li {
   margin: 0;
   padding: 0;
   overflow-y: initial;
-  background-color:  #008fb3
+  background-color:  #8FBC8F;
 }
 
 .modal-content {
   height: auto;
   min-height: 100%;
   border-radius: 0;
-  background-color:  #008fb3;
+  background-color:  #8FBC8F;
+  right:75%;
 }
 
 .modal-header {
     height: 100px;
-    background-color: #008fb3;
+    background-color: #8FBC8F;
 }
 
 .modal-body {
     max-height: 100%;
     text-align: center;
     overflow-y: auto;
-    background-color: #008fb3;
+    background-color: #8FBC8F;
+    z-index: 1160;
 }
 
 #Resume {
@@ -107,7 +116,7 @@ li {
 }
 
 .modal-footer {
-    background-color: #008fb3;
+    background-color: #8FBC8F;
 }
 p {
     text-align: left;
